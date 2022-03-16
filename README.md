@@ -15,3 +15,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 Using webrotate360 component
 
 `https://www.npmjs.com/package/@webrotate360/imagerotator`
+
+Demo url:
+`https://victorious-smoke-0be6fd510.1.azurestaticapps.net/`
