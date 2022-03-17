@@ -20,9 +20,9 @@ export class AppComponent implements OnInit, OnDestroy {
 
     const viewer = WR360.ImageRotator.Create('webrotate360');
 
-    viewer.licenseCode = 'https://webstoragecdn.azureedge.net/webrotator/public/license.lic';
-    viewer.settings.configFileURL = 'https://webstoragecdn.azureedge.net/webrotator/public/example/example.xml';
-    viewer.settings.graphicsPath = 'https://webstoragecdn.azureedge.net/webrotator/public/graphics';
+    viewer.licenseCode = 'https://webrotatorstorage.blob.core.windows.net/webrotator/public/license.lic';
+    viewer.settings.configFileURL = 'https://webrotatorstorage.blob.core.windows.net/webrotator/public/example/example.xml';
+    viewer.settings.graphicsPath = 'https://webrotatorstorage.blob.core.windows.net/webrotator/public/graphics';
 
 
     viewer.settings.alt = 'Your alt image description';
