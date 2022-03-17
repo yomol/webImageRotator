@@ -23,6 +23,7 @@
     "jquery": "^3.5.1",
     "jquery-validation": "^1.19.2",
     "jquery-validation-unobtrusive": "^3.2.11",
+    "ngx-device-detector": "^3.0.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.1",
     "zone.js": "~0.11.4"
@@ -44,7 +45,6 @@
     "eslint": "7.11.0",
     "eslint-config-prettier": "6.13.0",
     "eslint-plugin-prettier": "3.1.4",
-  
     "ng-packagr": "^13.2.1",
     "prettier": "2.1.2",
     "protractor": "~7.0.0",
@@ -55,7 +55,7 @@
     "webpack-cli": "^4.3.1"
   },
   "main": "index.js",
-  "files":[
+  "files": [
     "@webrotate360/imagerotator/build/css/all.css"
   ]
 }
