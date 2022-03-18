@@ -5,6 +5,7 @@ import { DtxClinicDetectorDeviceComponent } from './dtx-clinic-detector-device/d
 import { DtxClinicMobileComponent } from './dtx-clinic-mobile/dtx-clinic-mobile.component';
 import { DtxClinicSpotsActionComponent } from './dtx-clinic-spots-action/dtx-clinic-spots-action.component';
 import { DtxClinicComponent } from './dtx-clinic/dtx-clinic.component';
+import { WhiteComponentClinicComponent } from './white-component-clinic/white-component-clinic.component';
 
 const routes: Routes = [
   { path: 'basic', component: BasicComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'dtxclinicmobile', component: DtxClinicMobileComponent },
   { path: 'dtxclinicdtectordevice', component: DtxClinicDetectorDeviceComponent },
   { path: 'spotsaction', component: DtxClinicSpotsActionComponent },
+  { path: 'whitebackbround', component: WhiteComponentClinicComponent },
   { path: '', redirectTo: '/basic', pathMatch: 'full' }];
 
 @NgModule({
