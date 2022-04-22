@@ -56,6 +56,6 @@
   },
   "main": "index.js",
   "files": [
-    "@webrotate360/imagerotator/build/css/all.css"
+    "src/assets/stylesrotator/basic.css"
   ]
 }

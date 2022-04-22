@@ -19,9 +19,9 @@ export class BasicComponent implements OnInit, OnDestroy {
 
     this.viewerApi = WR360.ImageRotator.Create('webrotate360');
 
-    this.viewerApi.licenseCode = 'https://webrotatorstorage.blob.core.windows.net/webrotator/public/license.lic';
-    this.viewerApi.settings.configFileURL = 'https://webrotatorstorage.blob.core.windows.net/webrotator/public/example/example.xml';
-    this.viewerApi.settings.graphicsPath = 'https://webrotatorstorage.blob.core.windows.net/webrotator/public/graphics';
+    this.viewerApi.licenseFileURL = '../../assets/webrotatorlicense/license.lic';
+    this.viewerApi.settings.configFileURL = '../../assets/graphics/example2.xml';
+    this.viewerApi.settings.graphicsPath = '../../assets/graphics';
 
 
     this.viewerApi.settings.alt = 'Your alt image description';
